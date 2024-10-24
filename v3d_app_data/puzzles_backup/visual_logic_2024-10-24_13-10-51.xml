@@ -1,0 +1,64 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="9" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="CgbTP|2}a~ZA;2?Jmy/O" x="-10" y="-10">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="interface" type="CommonTab" active="true" scrollx="333.1406942080182" scrolly="265.5339951454981" scale="0.41230036979226">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="Bq!8ZrJ:D1.YBT#4NBYT" x="30" y="70">
+      <field name="ELEMENT">a</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="VXo[o2:0Sv@Sj,=t7ph|">
+          <field name="TEXT">enter_AR_button</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="d_dnMp2B_LD2,wuzZ)T#">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id="HLo:Ds(~zpOf[0h98P=G" x="-30" y="130">
+      <field name="ELEMENT">img</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="AnrD^cZ=q?zDRubII;gt">
+          <field name="TEXT">enter_AR_img</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="}vyP?g-Tla_0Nt9c-{i9">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+        <block type="text" id="kve{Y*R_tx0XY_XoewJ:">
+          <field name="TEXT">enter_AR_button</field>
+        </block>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="setHTMLElemAttribute" id="{_Ock4prRF!-F!p/]I{7" x="30" y="190">
+      <field name="ATTRIBUTE">src</field>
+      <field name="PARENT">FALSE</field>
+      <value name="VALUE">
+        <shadow type="text" id="eO}:F}%:NR*pqUmHYD*;">
+          <field name="TEXT"></field>
+        </shadow>
+        <block type="text" id="1s64w!Mc0.-}c]8FRSAa">
+          <field name="TEXT">media/enter_AR_button.png</field>
+        </block>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="J1]z}|iP{eOV19?piW6e">
+          <field name="TEXT">enter_AR_img</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="557.9999938964843" viewport-y="37" viewport-w="300" viewport-h="223.5" viewport-hidden="true" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
